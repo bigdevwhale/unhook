@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unhook</string>
+
+    <string name="back">Назад</string>
+    <string name="next">Продолжить</string>
+    <string name="skip">Пропустить</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Настроить привычку</string>
+    <string name="add">Добавить</string>
+    <string name="settings">Настройки</string>
+
+    <string name="channel_name">Достижения</string>
+    <string name="channel_desc">Короткое сообщение, когда вы получаете новый трофей</string>
+    <string name="notif_title">%s без срывов!</string>
+    <string name="notif_text">Новый трофей: %s. Так держать.</string>
+
+    <string name="widget_name">Чистые дни</string>
+    <string name="widget_desc">Сколько дней вы свободны, с одного взгляда</string>
+    <string name="widget_empty">Добавьте привычку в Unhook</string>
+    <plurals name="widget_days">
+        <item quantity="one">день без: %s</item>
+        <item quantity="few">дня без: %s</item>
+        <item quantity="many">дней без: %s</item>
+        <item quantity="other">дня без: %s</item>
+    </plurals>
+
+    <!-- Units -->
+    <string name="u_d">д</string>
+    <string name="u_h">ч</string>
+    <string name="u_m">м</string>
+    <string name="u_s">с</string>
+    <string name="u_hours">ч</string>
+    <string name="u_min">мин</string>
+    <string name="times_suffix">раз</string>
+    <string name="per">в %s</string>
+    <string name="period_day">день</string>
+    <string name="period_week">неделю</string>
+    <string name="period_month">месяц</string>
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+        <item quantity="other">%d года</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d месяц</item>
+        <item quantity="few">%d месяца</item>
+        <item quantity="many">%d месяцев</item>
+        <item quantity="other">%d месяца</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минуты</item>
+    </plurals>
+
+    <!-- Milestones -->
+    <string name="m_day_1">1 день</string>
+    <string name="m_day_3">3 дня</string>
+    <string name="m_week_1">1 неделя</string>
+    <string name="m_week_2">2 недели</string>
+    <string name="m_month_1">1 месяц</string>
+    <string name="m_month_3">3 месяца</string>
+    <string name="m_month_6">6 месяцев</string>
+    <string name="m_year_1">1 год</string>
+    <string name="m_year_2">2 года</string>
+    <string name="m_year_5">5 лет</string>
+    <string name="ms_1d">1Д</string>
+    <string name="ms_3d">3Д</string>
+    <string name="ms_1w">1Н</string>
+    <string name="ms_2w">2Н</string>
+    <string name="ms_1m">1М</string>
+    <string name="ms_3m">3М</string>
+    <string name="ms_6m">6М</string>
+    <string name="ms_1y">1Г</string>
+    <string name="ms_2y">2Г</string>
+    <string name="ms_5y">5Л</string>
+
+    <!-- Presets -->
+    <string name="preset_smoking">Курение</string>
+    <string name="preset_alcohol">Алкоголь</string>
+    <string name="preset_porn">Порно</string>
+    <string name="preset_sugar">Сахар</string>
+    <string name="preset_gambling">Азартные игры</string>
+    <string name="preset_procrastination">Прокрастинация</string>
+    <string name="preset_vaping">Вейп</string>
+    <string name="preset_social">Соцсети</string>
+    <string name="preset_gaming">Видеоигры</string>
+    <string name="preset_fast_food">Фастфуд</string>
+    <string name="preset_coffee">Кофе</string>
+    <string name="preset_energy">Энергетики</string>
+    <string name="preset_cannabis">Марихуана</string>
+    <string name="preset_shopping">Импульсивные покупки</string>
+    <string name="preset_nails">Грызть ногти</string>
+    <string name="preset_custom">Другое</string>
+
+    <string-array name="reasons_smoking">
+        <item>Я выбираю жизнь без сигарет</item>
+        <item>Риск рака, болезней сердца и инсульта снизится</item>
+        <item>Мне будет легче дышать, и появится больше энергии</item>
+        <item>Хочу свежо пахнуть и выглядеть здоровее</item>
+        <item>Я сэкономлю кучу денег</item>
+    </string-array>
+    <string-array name="reasons_alcohol">
+        <item>Хочу каждое утро просыпаться с ясной головой</item>
+        <item>Печень, сердце и сон скажут спасибо</item>
+        <item>Хочу быть по-настоящему рядом с близкими</item>
+        <item>Больше не буду жалеть о сказанном и сделанном</item>
+        <item>Сэкономлю деньги и время</item>
+    </string-array>
+    <string-array name="reasons_porn">
+        <item>Хочу настоящей близости и связи</item>
+        <item>Хочу вернуть концентрацию и мотивацию</item>
+        <item>Хочу управлять своими желаниями</item>
+        <item>Хочу больше времени на важное</item>
+    </string-array>
+    <string-array name="reasons_sugar">
+        <item>Хочу ровной энергии в течение дня</item>
+        <item>Хочу похудеть и чувствовать лёгкость</item>
+        <item>Хочу здоровые зубы и кожу</item>
+        <item>Хочу снизить риск диабета</item>
+    </string-array>
+    <string-array name="reasons_gambling">
+        <item>Хочу сохранить деньги и закрыть долги</item>
+        <item>Хочу перестать врать близким</item>
+        <item>Хочу спокойствия вместо тревоги</item>
+        <item>Хочу строить что-то настоящее</item>
+    </string-array>
+    <string-array name="reasons_procrastination">
+        <item>Хочу доводить дела до конца</item>
+        <item>Хочу перестать чувствовать вину по вечерам</item>
+        <item>Хочу, чтобы мои цели двигались каждый день</item>
+        <item>Хочу гордиться тем, как трачу время</item>
+    </string-array>
+    <string-array name="reasons_social">
+        <item>Хочу вернуть своё внимание</item>
+        <item>Хочу перестать сравнивать себя с другими</item>
+        <item>Хочу лучше спать без экрана</item>
+        <item>Хочу больше времени на живых людей</item>
+    </string-array>
+    <string-array name="reasons_generic">
+        <item>Хочу управлять своей жизнью</item>
+        <item>Хочу быть здоровее и сильнее</item>
+        <item>Хочу больше времени и денег на важное</item>
+        <item>Хочу гордиться собой</item>
+    </string-array>
+
+    <!-- Onboarding -->
+    <string name="ob_welcome_sub">Бросайте привычку день за днём и смотрите, сколько дней, денег и времени вы возвращаете.</string>
+    <string name="ob_promise_1">Бесплатно. Без рекламы, премиума и подвоха</string>
+    <string name="ob_promise_2">Без аккаунта. Данные остаются на телефоне</string>
+    <string name="ob_promise_3">Трофеи, накопления, дневник и SOS-помощь</string>
+    <string name="ob_begin">Начать</string>
+    <string name="ob_habit_title">От чего хотите отказаться?</string>
+    <string name="ob_habit_sub">Выберите привычку, которую хотите оставить в прошлом. Другие можно добавить позже.</string>
+    <string name="ob_more">Другие привычки</string>
+    <string name="ob_custom_hint">Название привычки</string>
+    <string name="ob_custom_icon">Выберите иконку</string>
+    <string name="ob_reasons_title">Зачем вам это?</string>
+    <string name="ob_reasons_sub">Ваши причины поддержат вас в трудную минуту.</string>
+    <string name="ob_own_reason">Своя причина</string>
+    <string name="ob_times_title">Как часто это случалось?</string>
+    <string name="ob_times_sub">Хватит примерной оценки. Так вы увидите, сколько раз удержались.</string>
+    <string name="ob_times_hint">Сколько раз</string>
+    <string name="ob_money_title">Сколько это стоило?</string>
+    <string name="ob_money_sub">Небольшие суммы со временем превращаются в большие.</string>
+    <string name="ob_currency_hint">Валюту можно поменять в настройках.</string>
+    <string name="ob_time_title">Сколько времени это занимало?</string>
+    <string name="ob_time_sub">Незаметные минуты складываются в дни.</string>
+    <string name="ob_start_title">Когда это было в последний раз?</string>
+    <string name="ob_start_sub">Это ваша точка отсчёта. Отсюда начнётся счётчик.</string>
+    <string name="ob_start_now">Прямо сейчас</string>
+    <string name="ob_start_earlier">Раньше</string>
+    <string name="ob_finish">Запустить счётчик</string>
+
+    <!-- Home -->
+    <string name="home_committed">Свобода от</string>
+    <string name="home_clean_for">Без срывов уже</string>
+    <string name="home_next">Следующая цель: %s</string>
+    <string name="home_all_done">Все трофеи собраны. Легенда.</string>
+    <string name="home_add">Привычка</string>
+    <string name="home_empty">Пока ничего не отслеживается. Добавьте привычку, которую хотите бросить.</string>
+
+    <!-- Tabs -->
+    <string name="tab_overview">Обзор</string>
+    <string name="tab_rewards">Копилка</string>
+    <string name="tab_motivation">Мотивация</string>
+    <string name="tab_stats">Статистика</string>
+    <string name="tab_trophies">Трофеи</string>
+
+    <!-- Overview -->
+    <string name="ov_days_clean">дней без срыва</string>
+    <string name="ov_goal">Цель: %1$s · %2$d%%</string>
+    <string name="ov_goal_left">Осталось %s</string>
+    <string name="ov_craving">Меня тянет</string>
+    <string name="ov_relapse">Был срыв</string>
+    <string name="ov_calendar">Календарь</string>
+    <string name="ov_legend_clean">Чистый день</string>
+    <string name="ov_legend_relapse">Срыв</string>
+    <string name="ov_diary">Дневник</string>
+    <string name="ov_add_note">Как вы себя чувствуете?</string>
+    <string name="ov_diary_empty">Здесь появятся заметки, побеждённая тяга и срывы.</string>
+    <string name="diary_note">Заметка</string>
+    <string name="diary_craving">Тяга побеждена</string>
+    <string name="diary_slip">Срыв после %s</string>
+    <string name="diary_delete_title">Удалить запись?</string>
+    <string name="diary_delete_text">Она исчезнет из дневника.</string>
+    <string name="diary_undo_title">Отменить срыв?</string>
+    <string name="diary_undo_text">Счётчик вернётся, как будто срыва не было, и серия %s продолжится.</string>
+    <string name="diary_undo">Вернуть серию</string>
+
+    <!-- Sheets -->
+    <string name="sos_title">Переждите волну</string>
+    <string name="sos_sub">Тяга достигает пика и спадает за несколько минут. Дышите вместе с кругом, пока она не пройдёт.</string>
+    <string name="sos_in">Вдох</string>
+    <string name="sos_hold">Задержка</string>
+    <string name="sos_out">Выдох</string>
+    <string name="sos_cycles">Вдохов: %d</string>
+    <string name="sos_remember">Помните, зачем</string>
+    <string name="sos_streak">Вы уже держитесь %s.</string>
+    <string name="sos_passed">Тяга прошла, я держусь</string>
+    <string name="sos_slipped">Не получилось удержаться</string>
+    <string name="sos_saved">Отлично. Записали в дневник.</string>
+    <string name="rl_title">Сбросить счётчик</string>
+    <string name="rl_sub">Срыв — это не конец. %s, которые вы продержались, никуда не денутся, а лучшая серия сохранится.</string>
+    <string name="rl_now">Только что</string>
+    <string name="rl_earlier">Раньше</string>
+    <string name="rl_note_hint">Что стало триггером? (необязательно)</string>
+    <string name="rl_confirm">Сбросить и начать заново</string>
+    <string name="note_title">Как вы себя чувствуете?</string>
+    <string name="note_hint">Пишите что угодно: триггеры, победы, мысли</string>
+
+    <!-- Savings -->
+    <string name="rw_savings">Накопления</string>
+    <string name="rw_no_costs">Укажите, сколько денег и времени забирала привычка, — и увидите, что вы возвращаете.</string>
+    <string name="rw_set_costs">Указать траты</string>
+    <string name="rw_balance">Можно потратить</string>
+    <string name="rw_since_reset">С последнего сброса</string>
+    <string name="rw_total">Сэкономлено всего</string>
+    <string name="rw_time_back">Возвращено времени</string>
+    <string name="rw_avoided">Раз удалось избежать</string>
+    <string name="rw_projection">Если продолжите</string>
+    <string name="rw_in_month">Через месяц</string>
+    <string name="rw_in_year">Через год</string>
+    <string name="rw_in_5years">Через 5 лет</string>
+    <string name="rw_wishlist">Порадуйте себя</string>
+    <string name="rw_wishlist_empty">Добавьте то, что давно хотели купить. Деньги, не потраченные на привычку, оплатят это.</string>
+    <string name="rw_add">Добавить награду</string>
+    <string name="rw_add_title">Новая награда</string>
+    <string name="rw_add_sub">Доступно сейчас: %s</string>
+    <string name="rw_title_hint">Что хотите?</string>
+    <string name="rw_price_hint">Цена</string>
+    <string name="rw_buy">Купить</string>
+    <string name="rw_bought">Куплено</string>
+    <string name="rw_buy_title">Купить «%s»?</string>
+    <string name="rw_buy_text">%s спишется из копилки. Вы это заслужили.</string>
+    <string name="rw_delete_title">Удалить награду?</string>
+    <string name="rw_delete_text">Она исчезнет из списка.</string>
+    <string name="rw_delete_bought">Потраченные на неё деньги вернутся в копилку.</string>
+    <string name="rw_money_hint">Укажите, сколько стоила привычка, чтобы планировать награды.</string>
+    <plurals name="rw_in_days">
+        <item quantity="one">через %d день</item>
+        <item quantity="few">через %d дня</item>
+        <item quantity="many">через %d дней</item>
+        <item quantity="other">через %d дня</item>
+    </plurals>
+
+    <!-- Motivation -->
+    <string name="mo_reasons">Мои причины</string>
+    <string name="mo_reasons_empty">Зачем вы это делаете? Запишите — пригодится в трудную минуту.</string>
+    <string name="mo_add_reason">Добавить причину</string>
+    <string name="mo_edit_reason">Изменить причину</string>
+    <string name="mo_reason_hint">Я хочу…</string>
+    <string name="mo_recovery">Что вы возвращаете</string>
+    <string name="mo_recovery_note">Общие сведения, не медицинская рекомендация. Все организмы разные.</string>
+    <string name="mo_quote">Цитата дня</string>
+
+    <string name="h_smoke_20m">Пульс и давление начинают снижаться</string>
+    <string name="h_smoke_8h">Угарного газа в крови вдвое меньше, кислород восстанавливается</string>
+    <string name="h_smoke_1d">Угарный газ полностью выведен из организма</string>
+    <string name="h_smoke_2d">Начинают возвращаться вкус и обоняние</string>
+    <string name="h_smoke_3d">Никотин выведен, дышать становится легче</string>
+    <string name="h_smoke_2w">Улучшается кровообращение, легче ходить</string>
+    <string name="h_smoke_1m">Меньше кашля и одышки</string>
+    <string name="h_smoke_3m">Заметно улучшается работа лёгких</string>
+    <string name="h_smoke_1y">Риск болезней сердца примерно вдвое ниже, чем у курильщика</string>
+    <string name="h_smoke_5y">Риск инсульта почти как у некурящего</string>
+    <string name="h_smoke_10y">Риск рака лёгких примерно вдвое ниже, чем у курильщика</string>
+    <string name="h_alc_1d">Сахар в крови стабилизируется, организм выводит алкоголь</string>
+    <string name="h_alc_3d">Абстиненция ослабевает, сон начинает восстанавливаться</string>
+    <string name="h_alc_1w">Сон глубже, кожа лучше увлажнена</string>
+    <string name="h_alc_2w">Слизистая желудка заживает, меньше калорий — вес снижается</string>
+    <string name="h_alc_1m">Жир в печени начинает уходить, давление улучшается</string>
+    <string name="h_alc_3m">Энергия, настроение и концентрация заметно лучше</string>
+    <string name="h_alc_1y">Снижается риск болезней печени и ряда видов рака</string>
+    <string name="h_sugar_1d">Скачки и провалы сахара в крови успокаиваются</string>
+    <string name="h_sugar_3d">Тяга на пике, а затем начинает слабеть</string>
+    <string name="h_sugar_1w">Энергия ровнее в течение дня</string>
+    <string name="h_sugar_2w">Вкус перенастраивается: фрукты кажутся слаще</string>
+    <string name="h_sugar_1m">Кожа чище, меньше вздутия, вес может снизиться</string>
+    <string name="h_sugar_3m">Ниже факторы риска диабета и болезней сердца</string>
+    <string name="h_gen_1d">Вы доказали, что можете продержаться день</string>
+    <string name="h_gen_3d">Первая, самая тяжёлая волна тяги позади</string>
+    <string name="h_gen_1w">Начинают складываться новые привычки</string>
+    <string name="h_gen_1m">Система вознаграждения мозга начинает перестраиваться</string>
+    <string name="h_gen_3m">Новый образ жизни кажется нормой, тяга реже и слабее</string>
+    <string name="h_gen_1y">Целый год: теперь это и есть вы</string>
+
+    <!-- Stats -->
+    <string name="st_progress">Прогресс</string>
+    <string name="st_quit_day">День отказа</string>
+    <string name="st_best">Лучшая серия</string>
+    <string name="st_resets">Сколько раз сбрасывали счётчик</string>
+    <string name="st_average">Средняя серия</string>
+    <string name="st_min">Самая короткая серия</string>
+    <string name="st_max">Самая длинная завершённая серия</string>
+    <string name="st_cravings">Побеждённая тяга</string>
+    <string name="st_chart">Серии</string>
+    <string name="st_chart_note">Каждый столбик — одна серия. Зелёный — текущая.</string>
+    <string name="st_gained">Что вы вернули</string>
+    <string name="st_rewards_bought">Куплено наград</string>
+    <string name="st_rewards_spent">Потрачено на награды</string>
+
+    <!-- Trophies -->
+    <plurals name="tr_count">
+        <item quantity="one">%1$d из %2$d трофеев</item>
+        <item quantity="few">%1$d из %2$d трофеев</item>
+        <item quantity="many">%1$d из %2$d трофеев</item>
+        <item quantity="other">%1$d из %2$d трофеев</item>
+    </plurals>
+    <string name="tr_decision">Решение принято</string>
+    <string name="tr_earned">Получен %s</string>
+    <string name="tr_left">Через %1$s · %2$s</string>
+    <string name="tr_before">У вас это уже получалось. Получится снова.</string>
+
+    <!-- Edit -->
+    <string name="edit_title">Настройки привычки</string>
+    <string name="edit_name">Название</string>
+    <string name="edit_icon">Иконка</string>
+    <string name="edit_dates">Даты</string>
+    <string name="edit_quit_at">День отказа</string>
+    <string name="edit_streak_start">Начало текущей серии</string>
+    <string name="edit_times">Как часто это случалось</string>
+    <string name="edit_money">Сколько стоило</string>
+    <string name="edit_minutes">Сколько времени занимало</string>
+    <string name="edit_delete">Удалить привычку</string>
+    <string name="edit_delete_title">Удалить «%s»?</string>
+    <string name="edit_delete_text">Вся история, дневник, причины и награды будут удалены. Отменить это нельзя.</string>
+
+    <!-- Settings -->
+    <string name="perm_title">Разрешите уведомления</string>
+    <string name="perm_text">Чтобы мы могли отметить каждый новый трофей вместе с вами.</string>
+    <string name="set_appearance">Тема</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="language">Язык</string>
+    <string name="lang_system">Как в системе</string>
+    <string name="set_general">Основное</string>
+    <string name="set_currency">Валюта</string>
+    <string name="set_notifications">Уведомления о трофеях</string>
+    <string name="set_notifications_text">Сообщение, когда вы достигаете новой цели</string>
+    <string name="autostart_title">Уведомления опаздывают?</string>
+    <string name="autostart_text">Некоторые телефоны (Xiaomi, Huawei, Samsung) останавливают фоновые приложения. Разрешите автозапуск и снимите ограничения батареи для Unhook.</string>
+    <string name="backup">Резервная копия</string>
+    <string name="backup_text">Всё хранится только на этом телефоне. Сохраните файл копии, чтобы перенести данные на новый телефон или просто на всякий случай.</string>
+    <string name="backup_export">Экспорт</string>
+    <string name="backup_import">Восстановить</string>
+    <string name="backup_import_title">Восстановить из копии?</string>
+    <string name="backup_import_text">Текущие привычки и история будут заменены данными из файла.</string>
+    <string name="backup_done">Копия сохранена</string>
+    <string name="backup_restored">Копия восстановлена</string>
+    <string name="backup_failed">Что-то пошло не так. Это точно файл копии Unhook?</string>
+    <string name="about">О приложении</string>
+    <string name="about_text">Unhook — бесплатное приложение с открытым кодом. Без рекламы, подписок, слежки и аккаунтов. Сделано с заботой для всех, кто бросает привычку.</string>
+    <string name="about_version">Версия %s</string>
+
+    <!-- Quotes: "text|author" -->
+    <string-array name="quotes">
+        <item>Путь в тысячу ли начинается с первого шага.|Лао-цзы</item>
+        <item>Мы — это то, что мы делаем постоянно. Совершенство — не действие, а привычка.|Уилл Дюрант</item>
+        <item>Неважно, как медленно ты идёшь, главное — не останавливаться.|Конфуций</item>
+        <item>Секрет того, как вырваться вперёд, — начать.|Марк Твен</item>
+        <item>Упади семь раз, поднимись восемь.|Японская пословица</item>
+        <item>Не нужно видеть всю лестницу — просто сделай первый шаг.|Мартин Лютер Кинг</item>
+        <item>Дисциплина — это выбор между тем, чего хочешь сейчас, и тем, чего хочешь больше всего.|Авраам Линкольн (приписывается)</item>
+        <item>Мотивация помогает начать. Привычка помогает продолжать.|Джим Рюн</item>
+        <item>Цепи привычки слишком слабы, чтобы их почувствовать, пока не станут слишком прочны, чтобы их разорвать.|Сэмюэл Джонсон</item>
+        <item>Каждое действие — это голос за того человека, которым вы хотите стать.|Джеймс Клир</item>
+        <item>Победивший себя — сильнейший из воинов.|Конфуций</item>
+        <item>Успех — это сумма небольших усилий, повторяемых изо дня в день.|Роберт Кольер</item>
+        <item>То, что вы делаете сегодня, может улучшить все ваши завтра.|Ральф Марстон</item>
+        <item>Сила рождается не из побед, а из преодоления.|Арнольд Шварценеггер</item>
+        <item>Лучшее время посадить дерево было 20 лет назад. Следующее лучшее время — сейчас.|Китайская пословица</item>
+        <item>Река прорезает камень не силой, а постоянством.|Джим Уоткинс</item>
+        <item>Наша величайшая слава не в том, чтобы никогда не падать, а в том, чтобы подниматься каждый раз.|Конфуций</item>
+        <item>Единственный выход — пройти насквозь.|Роберт Фрост</item>
+        <item>Будь сильнее своей самой сильной отговорки.|Неизвестный автор</item>
+        <item>Вы — не ваша тяга. Она приходит и уходит.|Неизвестный автор</item>
+        <item>Сначала мы создаём привычки, потом привычки создают нас.|Чарльз Нобл</item>
+        <item>Однажды или день первый. Решать тебе.|Неизвестный автор</item>
+        <item>Свобода — это то, что ты делаешь с тем, что сделали с тобой.|Жан-Поль Сартр</item>
+        <item>Смелость не всегда рычит. Иногда это тихий голос: «Завтра я попробую снова».|Мэри Энн Радмахер</item>
+        <item>Шаг за шагом можно уйти далеко.|Дж. Р. Р. Толкин</item>
+        <item>Тот, кто сдвигает гору, начинает с того, что уносит мелкие камни.|Конфуций</item>
+        <item>Не считай дни — сделай так, чтобы дни имели значение.|Мухаммед Али</item>
+        <item>Не свободен тот, кто не владеет собой.|Эпиктет</item>
+        <item>Перемены поначалу тяжелы, в середине сумбурны, а в конце прекрасны.|Робин Шарма</item>
+        <item>Ты властен над своим разумом, а не над внешними событиями. Осознай это — и обретёшь силу.|Марк Аврелий</item>
+    </string-array>
+</resources>

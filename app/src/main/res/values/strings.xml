@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unhook</string>
+
+    <string name="back">Back</string>
+    <string name="next">Continue</string>
+    <string name="skip">Skip</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit habit</string>
+    <string name="add">Add</string>
+    <string name="settings">Settings</string>
+
+    <string name="channel_name">Milestones</string>
+    <string name="channel_desc">A short note when you reach a new trophy</string>
+    <string name="notif_title">%s clean!</string>
+    <string name="notif_text">New trophy for %s. Keep going.</string>
+
+    <string name="widget_name">Clean days</string>
+    <string name="widget_desc">How many days you have been free, at a glance</string>
+    <string name="widget_empty">Add a habit in Unhook</string>
+    <plurals name="widget_days">
+        <item quantity="one">day without: %s</item>
+        <item quantity="other">days without: %s</item>
+    </plurals>
+
+    <!-- Units -->
+    <string name="u_d">d</string>
+    <string name="u_h">h</string>
+    <string name="u_m">m</string>
+    <string name="u_s">s</string>
+    <string name="u_hours">h</string>
+    <string name="u_min">min</string>
+    <string name="times_suffix">times</string>
+    <string name="per">per %s</string>
+    <string name="period_day">day</string>
+    <string name="period_week">week</string>
+    <string name="period_month">month</string>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <!-- Milestones -->
+    <string name="m_day_1">1 day</string>
+    <string name="m_day_3">3 days</string>
+    <string name="m_week_1">1 week</string>
+    <string name="m_week_2">2 weeks</string>
+    <string name="m_month_1">1 month</string>
+    <string name="m_month_3">3 months</string>
+    <string name="m_month_6">6 months</string>
+    <string name="m_year_1">1 year</string>
+    <string name="m_year_2">2 years</string>
+    <string name="m_year_5">5 years</string>
+    <string name="ms_1d">1D</string>
+    <string name="ms_3d">3D</string>
+    <string name="ms_1w">1W</string>
+    <string name="ms_2w">2W</string>
+    <string name="ms_1m">1M</string>
+    <string name="ms_3m">3M</string>
+    <string name="ms_6m">6M</string>
+    <string name="ms_1y">1Y</string>
+    <string name="ms_2y">2Y</string>
+    <string name="ms_5y">5Y</string>
+
+    <!-- Presets -->
+    <string name="preset_smoking">Smoking</string>
+    <string name="preset_alcohol">Alcohol</string>
+    <string name="preset_porn">Porn</string>
+    <string name="preset_sugar">Sugar</string>
+    <string name="preset_gambling">Gambling</string>
+    <string name="preset_procrastination">Procrastination</string>
+    <string name="preset_vaping">Vaping</string>
+    <string name="preset_social">Social media</string>
+    <string name="preset_gaming">Video games</string>
+    <string name="preset_fast_food">Fast food</string>
+    <string name="preset_coffee">Coffee</string>
+    <string name="preset_energy">Energy drinks</string>
+    <string name="preset_cannabis">Cannabis</string>
+    <string name="preset_shopping">Impulse shopping</string>
+    <string name="preset_nails">Nail biting</string>
+    <string name="preset_custom">Something else</string>
+
+    <string-array name="reasons_smoking">
+        <item>I choose a life free from cigarettes</item>
+        <item>My risk of cancer, heart disease and stroke will drop</item>
+        <item>I will breathe easier and have more energy</item>
+        <item>I want to smell fresh and look healthier</item>
+        <item>I will save a lot of money</item>
+    </string-array>
+    <string-array name="reasons_alcohol">
+        <item>I want to wake up clear-headed every day</item>
+        <item>My liver, heart and sleep will thank me</item>
+        <item>I want to be present for the people I love</item>
+        <item>I will stop regretting what I said or did</item>
+        <item>I will save money and time</item>
+    </string-array>
+    <string-array name="reasons_porn">
+        <item>I want real intimacy and connection</item>
+        <item>I want my focus and motivation back</item>
+        <item>I want to feel in control of my desires</item>
+        <item>I want more time for things that matter</item>
+    </string-array>
+    <string-array name="reasons_sugar">
+        <item>I want stable energy through the day</item>
+        <item>I want to lose weight and feel lighter</item>
+        <item>I want healthier teeth and skin</item>
+        <item>I want to lower my risk of diabetes</item>
+    </string-array>
+    <string-array name="reasons_gambling">
+        <item>I want to keep my money and pay my debts</item>
+        <item>I want to stop lying to people I love</item>
+        <item>I want peace of mind instead of anxiety</item>
+        <item>I want to build something real instead</item>
+    </string-array>
+    <string-array name="reasons_procrastination">
+        <item>I want to finish what I start</item>
+        <item>I want to stop feeling guilty in the evening</item>
+        <item>I want my goals to move forward every day</item>
+        <item>I want to feel proud of my time</item>
+    </string-array>
+    <string-array name="reasons_social">
+        <item>I want my attention back</item>
+        <item>I want to stop comparing myself to others</item>
+        <item>I want to sleep better without the screen</item>
+        <item>I want more time for real people</item>
+    </string-array>
+    <string-array name="reasons_generic">
+        <item>I want to be in control of my life</item>
+        <item>I want to feel healthier and stronger</item>
+        <item>I want more time and money for what matters</item>
+        <item>I want to be proud of myself</item>
+    </string-array>
+
+    <!-- Onboarding -->
+    <string name="ob_welcome_sub">Quit a habit, one day at a time. Watch the days, money and time you win back.</string>
+    <string name="ob_promise_1">Free. No ads, no premium, no catch</string>
+    <string name="ob_promise_2">No account. Your data stays on this phone</string>
+    <string name="ob_promise_3">Trophies, savings, diary and SOS help</string>
+    <string name="ob_begin">Let\'s begin</string>
+    <string name="ob_habit_title">What do you want to quit?</string>
+    <string name="ob_habit_sub">Pick the habit you want to leave behind. You can add more later.</string>
+    <string name="ob_more">More habits</string>
+    <string name="ob_custom_hint">Name the habit</string>
+    <string name="ob_custom_icon">Pick an icon</string>
+    <string name="ob_reasons_title">Why do you want to quit?</string>
+    <string name="ob_reasons_sub">Your reasons will hold you up in the hard moments.</string>
+    <string name="ob_own_reason">Add my own reason</string>
+    <string name="ob_times_title">How often did it happen?</string>
+    <string name="ob_times_sub">A rough guess is fine. It shows how many times you have avoided it.</string>
+    <string name="ob_times_hint">Number of times</string>
+    <string name="ob_money_title">How much did it cost you?</string>
+    <string name="ob_money_sub">Small amounts turn into big numbers over time.</string>
+    <string name="ob_currency_hint">Currency can be changed in settings.</string>
+    <string name="ob_time_title">How much time did it take?</string>
+    <string name="ob_time_sub">Minutes you barely noticed add up to days.</string>
+    <string name="ob_start_title">When was the last time?</string>
+    <string name="ob_start_sub">This is your starting point. The counter begins here.</string>
+    <string name="ob_start_now">Right now</string>
+    <string name="ob_start_earlier">Earlier</string>
+    <string name="ob_finish">Start the counter</string>
+
+    <!-- Home -->
+    <string name="home_committed">I\'m free from</string>
+    <string name="home_clean_for">Clean for</string>
+    <string name="home_next">Next: %s</string>
+    <string name="home_all_done">Every trophy earned. Legendary.</string>
+    <string name="home_add">Add habit</string>
+    <string name="home_empty">Nothing tracked yet. Add a habit you want to leave behind.</string>
+
+    <!-- Tabs -->
+    <string name="tab_overview">Overview</string>
+    <string name="tab_rewards">Savings</string>
+    <string name="tab_motivation">Motivation</string>
+    <string name="tab_stats">Stats</string>
+    <string name="tab_trophies">Trophies</string>
+
+    <!-- Overview -->
+    <string name="ov_days_clean">days clean</string>
+    <string name="ov_goal">Goal: %1$s · %2$d%%</string>
+    <string name="ov_goal_left">%s to go</string>
+    <string name="ov_craving">I have a craving</string>
+    <string name="ov_relapse">I slipped</string>
+    <string name="ov_calendar">Calendar</string>
+    <string name="ov_legend_clean">Clean</string>
+    <string name="ov_legend_relapse">Slip</string>
+    <string name="ov_diary">Diary</string>
+    <string name="ov_add_note">How are you feeling?</string>
+    <string name="ov_diary_empty">Notes, cravings you beat and slips will show up here.</string>
+    <string name="diary_note">Note</string>
+    <string name="diary_craving">Craving beaten</string>
+    <string name="diary_slip">Slip after %s</string>
+    <string name="diary_delete_title">Delete this entry?</string>
+    <string name="diary_delete_text">It will be removed from the diary.</string>
+    <string name="diary_undo_title">Undo this slip?</string>
+    <string name="diary_undo_text">The counter goes back as if it never happened, and your %s streak continues.</string>
+    <string name="diary_undo">Restore streak</string>
+
+    <!-- Sheets -->
+    <string name="sos_title">Ride the wave</string>
+    <string name="sos_sub">A craving peaks and fades within minutes. Breathe with the circle until it passes.</string>
+    <string name="sos_in">Breathe in</string>
+    <string name="sos_hold">Hold</string>
+    <string name="sos_out">Breathe out</string>
+    <string name="sos_cycles">Breaths: %d</string>
+    <string name="sos_remember">Remember why</string>
+    <string name="sos_streak">You have already held on for %s.</string>
+    <string name="sos_passed">It passed. I held on</string>
+    <string name="sos_slipped">I couldn\'t hold on</string>
+    <string name="sos_saved">Well done. Logged in your diary.</string>
+    <string name="rl_title">Reset the counter</string>
+    <string name="rl_sub">A slip is not the end. The %s you held on still count, and your best streak stays.</string>
+    <string name="rl_now">Just now</string>
+    <string name="rl_earlier">Earlier</string>
+    <string name="rl_note_hint">What triggered it? (optional)</string>
+    <string name="rl_confirm">Reset and start again</string>
+    <string name="note_title">How are you feeling?</string>
+    <string name="note_hint">Write anything: triggers, wins, thoughts</string>
+
+    <!-- Savings -->
+    <string name="rw_savings">Savings</string>
+    <string name="rw_no_costs">Tell how much money and time the habit used to take, and you\'ll see what you win back.</string>
+    <string name="rw_set_costs">Set costs</string>
+    <string name="rw_balance">Available to spend</string>
+    <string name="rw_since_reset">Since last reset</string>
+    <string name="rw_total">Saved in total</string>
+    <string name="rw_time_back">Time won back</string>
+    <string name="rw_avoided">Times avoided</string>
+    <string name="rw_projection">If you keep going</string>
+    <string name="rw_in_month">In a month</string>
+    <string name="rw_in_year">In a year</string>
+    <string name="rw_in_5years">In 5 years</string>
+    <string name="rw_wishlist">Treat yourself</string>
+    <string name="rw_wishlist_empty">Add something you\'d love to buy. The money you don\'t spend on the habit pays for it.</string>
+    <string name="rw_add">Add a reward</string>
+    <string name="rw_add_title">New reward</string>
+    <string name="rw_add_sub">Available now: %s</string>
+    <string name="rw_title_hint">What do you want?</string>
+    <string name="rw_price_hint">Price</string>
+    <string name="rw_buy">Buy</string>
+    <string name="rw_bought">Bought</string>
+    <string name="rw_buy_title">Buy %s?</string>
+    <string name="rw_buy_text">%s will be taken from your savings. You earned it.</string>
+    <string name="rw_delete_title">Delete reward?</string>
+    <string name="rw_delete_text">It will be removed from the list.</string>
+    <string name="rw_delete_bought">The money spent on it will return to your savings.</string>
+    <string name="rw_money_hint">Add the money it cost you to plan rewards.</string>
+    <plurals name="rw_in_days">
+        <item quantity="one">in %d day</item>
+        <item quantity="other">in %d days</item>
+    </plurals>
+
+    <!-- Motivation -->
+    <string name="mo_reasons">My reasons</string>
+    <string name="mo_reasons_empty">Why are you doing this? Write it down for the hard moments.</string>
+    <string name="mo_add_reason">Add a reason</string>
+    <string name="mo_edit_reason">Edit reason</string>
+    <string name="mo_reason_hint">I want to…</string>
+    <string name="mo_recovery">What you win back</string>
+    <string name="mo_recovery_note">General guidance, not medical advice. Every body is different.</string>
+    <string name="mo_quote">Quote of the day</string>
+
+    <string name="h_smoke_20m">Heart rate and blood pressure begin to drop</string>
+    <string name="h_smoke_8h">Carbon monoxide in the blood falls by half, oxygen levels recover</string>
+    <string name="h_smoke_1d">Carbon monoxide is cleared from the body</string>
+    <string name="h_smoke_2d">Taste and smell start to come back</string>
+    <string name="h_smoke_3d">Nicotine is out of the body; breathing gets easier</string>
+    <string name="h_smoke_2w">Circulation improves, walking gets easier</string>
+    <string name="h_smoke_1m">Coughing and shortness of breath decrease</string>
+    <string name="h_smoke_3m">Lung function improves noticeably</string>
+    <string name="h_smoke_1y">Risk of heart disease is about half that of a smoker</string>
+    <string name="h_smoke_5y">Stroke risk falls close to a non-smoker\'s</string>
+    <string name="h_smoke_10y">Lung cancer risk is about half that of a smoker</string>
+    <string name="h_alc_1d">Blood sugar stabilises, the body clears the alcohol</string>
+    <string name="h_alc_3d">Withdrawal eases, sleep starts to recover</string>
+    <string name="h_alc_1w">Sleep is deeper, skin looks better hydrated</string>
+    <string name="h_alc_2w">Stomach lining heals, fewer calories, weight drops</string>
+    <string name="h_alc_1m">Liver fat begins to decrease, blood pressure improves</string>
+    <string name="h_alc_3m">Energy, mood and focus are clearly better</string>
+    <string name="h_alc_1y">Risk of liver disease and several cancers goes down</string>
+    <string name="h_sugar_1d">Blood sugar spikes and crashes calm down</string>
+    <string name="h_sugar_3d">Cravings peak, then begin to fade</string>
+    <string name="h_sugar_1w">Energy is more stable through the day</string>
+    <string name="h_sugar_2w">Taste resets: fruit tastes sweeter</string>
+    <string name="h_sugar_1m">Skin clearer, less bloating, weight may drop</string>
+    <string name="h_sugar_3m">Lower risk factors for diabetes and heart disease</string>
+    <string name="h_gen_1d">You have proved you can go a day</string>
+    <string name="h_gen_3d">The first, hardest wave of cravings is behind you</string>
+    <string name="h_gen_1w">New routines are starting to form</string>
+    <string name="h_gen_1m">The brain\'s reward system starts to rebalance</string>
+    <string name="h_gen_3m">The new way feels normal; urges are rarer and weaker</string>
+    <string name="h_gen_1y">A whole year: this is who you are now</string>
+
+    <!-- Stats -->
+    <string name="st_progress">Progress</string>
+    <string name="st_quit_day">The day you quit</string>
+    <string name="st_best">Best streak</string>
+    <string name="st_resets">Times the counter was reset</string>
+    <string name="st_average">Average streak</string>
+    <string name="st_min">Shortest streak</string>
+    <string name="st_max">Longest finished streak</string>
+    <string name="st_cravings">Cravings beaten</string>
+    <string name="st_chart">Streaks</string>
+    <string name="st_chart_note">Each bar is one streak. The green one is the current.</string>
+    <string name="st_gained">What you won back</string>
+    <string name="st_rewards_bought">Rewards bought</string>
+    <string name="st_rewards_spent">Spent on rewards</string>
+
+    <!-- Trophies -->
+    <plurals name="tr_count">
+        <item quantity="one">%1$d of %2$d trophies</item>
+        <item quantity="other">%1$d of %2$d trophies</item>
+    </plurals>
+    <string name="tr_decision">The decision was made</string>
+    <string name="tr_earned">Earned on %s</string>
+    <string name="tr_left">In %1$s · %2$s</string>
+    <string name="tr_before">You have done this before. You can do it again.</string>
+
+    <!-- Edit -->
+    <string name="edit_title">Habit settings</string>
+    <string name="edit_name">Name</string>
+    <string name="edit_icon">Icon</string>
+    <string name="edit_dates">Dates</string>
+    <string name="edit_quit_at">The day you quit</string>
+    <string name="edit_streak_start">Current streak started</string>
+    <string name="edit_times">How often it happened</string>
+    <string name="edit_money">What it cost</string>
+    <string name="edit_minutes">Time it took</string>
+    <string name="edit_delete">Delete habit</string>
+    <string name="edit_delete_title">Delete %s?</string>
+    <string name="edit_delete_text">All its history, diary, reasons and rewards will be deleted. This can\'t be undone.</string>
+
+    <!-- Settings -->
+    <string name="perm_title">Allow notifications</string>
+    <string name="perm_text">So we can celebrate each new trophy with you.</string>
+    <string name="set_appearance">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="set_general">General</string>
+    <string name="set_currency">Currency</string>
+    <string name="set_notifications">Trophy notifications</string>
+    <string name="set_notifications_text">A note when you reach a new milestone</string>
+    <string name="autostart_title">Notifications arrive late?</string>
+    <string name="autostart_text">Some phones (Xiaomi, Huawei, Samsung) stop background apps. Allow autostart and turn off battery restrictions for Unhook.</string>
+    <string name="backup">Backup</string>
+    <string name="backup_text">Everything is stored only on this phone. Save a backup file to move to a new phone or keep it safe.</string>
+    <string name="backup_export">Export</string>
+    <string name="backup_import">Restore</string>
+    <string name="backup_import_title">Restore from backup?</string>
+    <string name="backup_import_text">Current habits and history will be replaced with the ones from the file.</string>
+    <string name="backup_done">Backup saved</string>
+    <string name="backup_restored">Backup restored</string>
+    <string name="backup_failed">Something went wrong. Is it an Unhook backup file?</string>
+    <string name="about">About</string>
+    <string name="about_text">Unhook is free and open source. No ads, no subscriptions, no tracking, no account. Made with care for anyone breaking a habit.</string>
+    <string name="about_version">Version %s</string>
+
+    <!-- Quotes: "text|author" -->
+    <string-array name="quotes">
+        <item>The journey of a thousand miles begins with one step.|Lao Tzu</item>
+        <item>We are what we repeatedly do. Excellence, then, is not an act, but a habit.|Will Durant</item>
+        <item>It does not matter how slowly you go as long as you do not stop.|Confucius</item>
+        <item>The secret of getting ahead is getting started.|Mark Twain</item>
+        <item>Fall seven times, stand up eight.|Japanese proverb</item>
+        <item>You don\'t have to see the whole staircase, just take the first step.|Martin Luther King Jr.</item>
+        <item>Discipline is choosing between what you want now and what you want most.|Abraham Lincoln (attributed)</item>
+        <item>Motivation is what gets you started. Habit is what keeps you going.|Jim Ryun</item>
+        <item>The chains of habit are too weak to be felt until they are too strong to be broken.|Samuel Johnson</item>
+        <item>Every action you take is a vote for the type of person you wish to become.|James Clear</item>
+        <item>He who conquers himself is the mightiest warrior.|Confucius</item>
+        <item>Success is the sum of small efforts, repeated day in and day out.|Robert Collier</item>
+        <item>What you do today can improve all your tomorrows.|Ralph Marston</item>
+        <item>Strength does not come from winning. Your struggles develop your strengths.|Arnold Schwarzenegger</item>
+        <item>The best time to plant a tree was 20 years ago. The second best time is now.|Chinese proverb</item>
+        <item>A river cuts through rock not because of its power, but because of its persistence.|Jim Watkins</item>
+        <item>Our greatest glory is not in never falling, but in rising every time we fall.|Confucius</item>
+        <item>The only way out is through.|Robert Frost</item>
+        <item>Be stronger than your strongest excuse.|Unknown</item>
+        <item>You are not your cravings. They come and they go.|Unknown</item>
+        <item>First we make our habits, then our habits make us.|Charles C. Noble</item>
+        <item>One day or day one. You decide.|Unknown</item>
+        <item>Freedom is what you do with what\'s been done to you.|Jean-Paul Sartre</item>
+        <item>Courage doesn\'t always roar. Sometimes it\'s the quiet voice saying: I will try again tomorrow.|Mary Anne Radmacher</item>
+        <item>Little by little, one travels far.|J. R. R. Tolkien</item>
+        <item>The man who moves a mountain begins by carrying away small stones.|Confucius</item>
+        <item>Don\'t count the days, make the days count.|Muhammad Ali</item>
+        <item>No one is free who is not master of himself.|Epictetus</item>
+        <item>Change is hard at first, messy in the middle and gorgeous at the end.|Robin Sharma</item>
+        <item>You have power over your mind, not outside events. Realize this, and you will find strength.|Marcus Aurelius</item>
+    </string-array>
+</resources>
