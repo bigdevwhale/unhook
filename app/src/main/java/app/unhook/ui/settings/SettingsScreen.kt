@@ -52,6 +52,7 @@ import app.unhook.data.ThemeMode
 import app.unhook.notify.Milestones
 import app.unhook.ui.Language
 import app.unhook.ui.components.Chip
+import app.unhook.ui.components.CommunityLinks
 import app.unhook.ui.components.ConfirmDialog
 import app.unhook.ui.components.SectionTitle
 import app.unhook.ui.components.TopBar
@@ -165,6 +166,8 @@ fun SettingsScreen(settings: app.unhook.data.Settings, onBack: () -> Unit) {
                     }
                 }
             }
+
+            CommunityLinks()
 
             SectionTitle(stringResource(R.string.about))
             UCard {

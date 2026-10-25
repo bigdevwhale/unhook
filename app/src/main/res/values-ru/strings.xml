@@ -424,4 +424,15 @@
         <item>Перемены поначалу тяжелы, в середине сумбурны, а в конце прекрасны.|Робин Шарма</item>
         <item>Ты властен над своим разумом, а не над внешними событиями. Осознай это — и обретёшь силу.|Марк Аврелий</item>
     </string-array>
+    <!-- Community: the StillCraft bot on Telegram -->
+    <string name="community_title">Сообщество</string>
+    <string name="community_sub">Приложение делается вместе с теми, кто им пользуется. Всё идёт через бота StillCraft в Telegram.</string>
+    <string name="community_bug">Сообщить о баге</string>
+    <string name="community_bug_sub">что сломалось и как повторить</string>
+    <string name="community_idea">Предложить идею</string>
+    <string name="community_idea_sub">функция, награда, повод держаться</string>
+    <string name="community_follow">Подписаться на обновления</string>
+    <string name="community_follow_sub">бот напишет, когда выйдет версия</string>
+    <string name="community_chat">Чат StillCraft</string>
+    <string name="community_chat_sub">все приложения и люди</string>
 </resources>
